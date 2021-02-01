@@ -1,0 +1,31 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+body {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(20,0,36,1) 0%, rgba(121,9,79,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.title {
+  font-style: italic;
+  font-family: 'Brush Script MT' cursive;
+}
+
+.username {
+  text-align: center;
+  display: inline-block;
+}
+
+.email {
+  text-align: center;
+  display: inline-block;
+}
+
+.user_form {
+  background-color: white;
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
